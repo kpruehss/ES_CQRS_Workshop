@@ -1,0 +1,93 @@
+﻿###############################################################################
+# JetBrains Rider / ReSharper                                                #
+###############################################################################
+.idea/                         # Rider project metadata
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/log/                     # Rider log files
+_ReSharper*/                   # ReSharper caches
+*.DotSettings.user             # Per-user IDE settings
+
+###############################################################################
+# Build artifacts                                                            #
+###############################################################################
+bin/
+obj/
+artifacts/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.mdb
+*.log
+*.svclog
+
+###############################################################################
+# .NET Core / ASP.NET                                                         #
+###############################################################################
+# Automatically-generated files
+*.dbmdl
+*.dbschema
+*.bak
+*.sql
+*.sqlite
+*.sqlite3
+*.TestResults
+TestResults/
+*.vspscc
+*.vssscc
+
+# User secrets & local settings
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.json
+**/launchSettings.json
+secrets.json
+
+###############################################################################
+# NuGet                                                                       #
+###############################################################################
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.assets.json
+# Global packages, cache & temp files
+~/.nuget/
+.nuget/
+
+###############################################################################
+# Rider / MSBuild caches                                                     #
+###############################################################################
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+###############################################################################
+# Static analysis reports                                                     #
+###############################################################################
+*.sonarqube/
+coverage*.json
+*.lcov
+*.codecov
+
+###############################################################################
+# OS-specific                                                                 #
+###############################################################################
+# macOS
+.DS_Store
+.AppleDouble
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
