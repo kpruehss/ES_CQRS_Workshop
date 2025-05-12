@@ -1,0 +1,34 @@
+﻿# ─── build artefacts ───────────────────────────────────────────────────────────
+**/bin/
+**/obj/
+**/out/
+**/TestResults/
+
+# Node/npm output (if the solution ever gets a front-end)
+**/dist/
+**/.angular/
+**/node_modules/
+
+# VS / Rider / JetBrains helpers
+.vs/
+.idea/
+*.suo
+
+# Git history — never needed inside the image
+.git
+.gitignore
+
+# Global temp or editor swap files
+*.sw?
+*.user
+*.tmp
+
+# Docs & markdown (keep README if you want)
+*.md
+
+# Tests aren’t required to compile the runtime image
+Tests/
+
+# Compose files & other Dockerfiles (they live outside the image)
+docker-compose*.yml
+Dockerfile*
